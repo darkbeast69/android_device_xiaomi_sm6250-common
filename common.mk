@@ -318,10 +318,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     $(LOCAL_PATH)/configs/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250
-
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
